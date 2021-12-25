@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phan Huynh Thanh Binh - assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="header">
+    <nav class="navbar navbar-expand-sm fixed-top" aria-label="Fourth navbar example">
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BAND</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">TOUR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MORE <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                <li><a class="dropdown-item" href="#">Extras</a></li>
+                <li><a class="dropdown-item" href="#">Media</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="image">
+      <div class="image-wrap">
+        <img class="mySlides" src="./241221504_1980467328776364_1455579832548884856_n.jpg">
+        <img class="mySlides" src="./267509673_2053873841435712_5855466066151209476_n.jpg">
+        <img class="mySlides" src="./82508405_1452401368249632_1758208432428548096_n.jpg">
+      </div>
+      <div class="image-change w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+        style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+      <h2 class="w3-wide">CLB CÓC SÀI GÒN</h2>
+      <p class="w3-opacity"><i>Đây là assignment</i></p>
+      <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <B>
+            <p>CÓC SÀI GÒN</p>
+          </B>
+          <img src="/csg.jpg" class="w3-round w3-margin-bottom" alt="f5 lại đi" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <B>
+            <p>FLASH BEAUTY MOMENT</p>
+          </B>
+          <img src="/fbm.jpg" class="w3-round w3-margin-bottom" alt="f5 lại đi" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <B>
+            <p>HUMANS OF FPTU</p>
+          </B>
+          <img src="/hò.jpg" class="w3-round" alt="f5 lại đi" style="width:60%">
+        </div>
+      </div>
+    </div>
+    <div class="tour" id="tour">
+      <div class="w3-container w3-content w3-padding-64">
+        <h1 class="tieude"><b>TALK SHOW</b> <br></h1> <br>
+        <p class="hudoa"><i>không mua thì đừng hòng mà coi!</i></p> <br>
+        <ul class="w3-ul w3-border w3-white w3-text-grey">
+          <li class="thang">Tháng 10<span class="w3-tag w3-red w3-margin-left">ĐÃ BÁN</span></li>
+          <li class="thang">Tháng 11<span class="w3-tag w3-red w3-margin-left">ĐÃ BÁN</span></li>
+          <li class="thang">Tháng 12 <span class="w3-badge w3-right w3-margin-right">10</span></li>
+        </ul>
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <img src="/sgtk2.jpg" alt="ảnh bị lỗi rồi f5 đi chờ gì" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>SAIGON TALK 2</b></p>
+              <p class="w3-opacity">Sat 20 Mar 2021</p>
+              <p>Mua đê chần chừ gì nữa hết bây giờ.</p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('vé xem').style.display='block'">Mua Vé</button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="/sgt3.jpg" alt="ảnh bị lỗi rồi f5 đi chờ gì" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>SAIGON TALK 3</b></p>
+              <p class="w3-opacity">Fri 13 Aug 2021</p>
+              <p>Mua đê chần chừ gì nữa hết bây giờ.</p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('vé xem').style.display='block'">Mua Vé</button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="/sgtk4.jpg" alt="ảnh bị lỗi rồi f5 đi chờ gì" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>SAIGON TALK 4</b></p>
+              <p class="w3-opacity">Sat 18 Dec 2021</p>
+              <p>Mua đê chần chừ gì nữa hết bây giờ.</p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('vé xem').style.display='block'">Mua Vé</button>
+            </div>
+          </div>
+        </div>
+        <div id="vé xem" class="w3-modal ">
+          <div class="w3-modal-content w3-animate-top w3-card-4 w3-brown">
+            <header class="w3-container w3-light-green w3-center w3-padding-32">
+              <span onclick="document.getElementById('vé xem').style.display='none'"
+                class="w3-button w3-light-green w3-xlarge w3-display-topright">&times;</span>
+              <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i><b>Mua Ở Đây Nè</b></h2>
+            </header>
+            <div class="w3-container">
+              <p><label><i class="fa fa-shopping-cart"></i> Chỉ có 100k thôi tiếc gì khom biết</label></p>
+              <input class="w3-input w3-border" type="text" placeholder="Mấy cái???">
+              <p><label><i class="fa fa-user"></i> Cho xin địa chỉ, gửi tận nhà</label></p>
+              <input class="w3-input w3-border" type="text" placeholder="Email hoặc địa chỉ nhà?">
+              <button class="w3-button w3-block w3-light-green w3-padding-16 w3-section w3-right">TRẢ TIỀN ĐI <i
+                  class="fa fa-check"></i></button>
+              <button class="w3-button w3-red w3-section"
+                onclick="document.getElementById('vé xem').style.display='none'">Đóng <i
+                  class="fa fa-remove"></i></button>
+              <p class="w3-right">Cần tui <a href="https://www.facebook.com/cocsaigonfuhcm"
+                  class="w3-text-blue">giúp?</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">LIÊN HỆ</h2>
+      <p class="undercontact"><i>Muốn trở thành thành viên của CLB Cóc Sài Gòn không? </i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> TP HCM, VN<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: khongcomail@mail.com<br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">GỬI</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="1anhthoi">
+      <img class="anhcuoi" src="/240723046_1960937017396062_4191048019211741187_n.png"
+        alt="ảnh này có thể bị lõi ròi tải lại đi">
+    </div>
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i> <br> <br>
+
+      <b>
+        <p class="w3-large">Thiết kế bởi <a href="https://www.facebook.com/phanhuynhthanhbinh/" target="_blank">Phan
+            Huỳnh
+            Thanh Bình</a></p>
+      </b>
+    </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

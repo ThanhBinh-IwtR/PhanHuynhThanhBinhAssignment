@@ -1,0 +1,103 @@
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 0 !important;
+}
+.nav-link {
+    color: white;
+    padding: 12px 24px !important;
+    cursor: pointer;
+    transition: 0ms;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.dropdown-menu {
+    border-radius: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item {
+    padding: 8px 16px;
+    transition: 0ms;
+}
+.nabarbutton,
+.nabarnut {
+    padding: 16px 24px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+}
+.nabar2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(241, 10, 10);
+}
+.nabarbutton:hover,
+.nabarnut:hover {
+    color: black;
+    background-color: rgb(233, 228, 222);
+}
+.nabartop:hover .nabar2 {
+    display: block;
+}
+.kinhlup {
+    margin-left: auto;
+    display: block;
+    color: white;
+    padding: 16px 24px;
+}
+.kinhlup:hover {
+    background-color: red;
+    color: white;
+}
+
+.image {
+    margin-top: 38px;
+}
+
+.mySlides {
+    height: auto;
+    width: 100%;
+}
+.tour {
+    display: block;
+    background-color: black;
+    height: 1000%;
+    width: 100%;
+
+    padding: 25px;
+}
+.tieude {
+    color: white;
+    text-align: center;
+}
+.hudoa {
+    text-align: center;
+    color: gray;
+}
+.thang {
+    color: gray;
+}
+.chonthang {
+    display: block;
+    background-color: white;
+}
+.undercontact {
+    text-align: center;
+    opacity: inherit;
+}
+.anhcuoi {
+    height: 100%;
+    width: 100%;
+}
